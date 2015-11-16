@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName= 'Test'
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src"]
+        }
+    }
+}
